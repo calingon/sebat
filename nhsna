@@ -1,0 +1,150 @@
+#!/usr/bin/env python
+# encofing:utf-8
+import os
+from time import sleep
+os.system("pkg install python")
+os.system("clear")
+os.system("apt install git")
+os.system("clear")
+os.system("apt-get install cowsay")
+os.system("apt install toilet -y")
+os.system("clear")
+os.system("toilet -f mono12 -F gay merhaba")
+
+print("""
+         HOŞGELDİN YARIŞMACI :)
+NOT: Eğer bir seçeneği seçerseniz sınav bittikten sonra tekrar bu ekrana gelmek için "python nhsna" komutunu çalıştırın
+         
+[1] >>> Test Sınav
+[2] >>> Boşluk Doldurma Sınav
+[3] >>> Doğru Yanlış Sınav
+[4] >>> Benimle İletişime Geç
+""")
+ilk = input("Seçim ID Numarası >>> ")
+if(ilk=="1"):
+	os.system("clear")
+	os.system("toilet -f mono12 -F gay TEST")
+	os.system("cowsay Sınav 10 Saniye Sonra Başlıyor")
+	sleep(10)
+	os.system("clear")
+	print("""
+	
+	[Soru-1]
+		Sena'nın instagram kullanıcı ismi ne?
+		
+		A) nshikahuu
+		B) nshıhakuu
+		C) nshihakuu
+		D) nshihaku
+	
+	""")
+	ilk1 = input("Cevap >>> ")
+	if(ilk1=="C"):
+		a = 10
+		print("""Doğru Cevap
+		 5 Saniye Sonra 2.Soru Geliyor""")
+		sleep(5)
+	else:
+		a = 0
+		print("""Yanlış Cevap Verdiniz 
+		5 Saniye Sonra 2.Soru Geliyor """)
+		sleep(5)
+	os.system("clear")
+	print("""
+		
+	[Soru-2]
+		Sena'nın takıntılı olduğu yazım yanlışı hangisidir?
+			
+		A) veya
+		B) ya da
+		C) şu an
+		D) -ki
+		
+	""")
+	ilk2 = input("Cevap >>> ")
+	if(ilk2=="C"):
+		b = 10
+		print("Doğru Cevap")
+		print("5 Saniye Sonra 3.Soru Geliyor")
+		sleep(5)
+	else:
+		b = 0
+		print("""Yanlış Cevap Verdiniz 
+		5 Saniye Sonra 3.Soru Geliyor """)
+		sleep(5)
+	os.system("clear")	
+	print("""
+	
+	[Soru-3]
+		Sena'nın aşık olduğu kişi sayısı?
+		
+		A) 1
+		B) 2
+		C) 3
+		D) 64587306347563475673465734543756345966	
+	
+	""")
+	ilk3 = input("Cevap >>> ")
+	if(ilk3=="D"):
+		c = 10
+		print("""
+		Doğru Cevap
+		5 Saniye Sonra 4.Soru Geliyor """)
+		sleep(5)
+	else:
+		c = 0
+		print("""Yanlış Cevap Verdiniz
+		5 Saniye Sonra 4.Soru Geliyor """)
+		sleep(5)
+	os.system("clear")
+	print("""
+		
+	[Soru-4]
+		Sena'nın öne çıknları kaç hafta önceye ait?
+			
+		A) 34
+		B) 35
+		C) 36
+		D) 37
+		
+	""")
+	ilk4 = input("Cevap >>> ")
+	if(ilk4=="A"):
+		d = 10
+		print("""Doğru Cevap 
+		5 Saniye Sonra 5.Soru Geliyor""")
+		sleep(5)
+	else:
+		d = 0
+		print("""Yanlış Cevap Verdiniz 
+		5 Saniye Sonra 5.Soru Geliyor """)
+		sleep(5)
+	os.system("clear")
+	print("""
+		
+	[Soru-5]
+		Hangisi Sena için doğrudur
+			
+		A) Aşk Dolu
+		B) Parayoank
+		C) Mutlu
+		D) Kırıcı
+		
+	""")
+	ilk5 = input("Cevap >>> ")
+	if(ilk5=="B"):
+		e = 10
+		print("""Doğru Cevap """)
+		sleep(5)
+	else:
+		e = 0
+		print("""Yanlış Cevap Verdiniz """)
+		sleep(5)
+	os.system("clear")	
+	os.system("toilet -f mono12 -F gay sonuç")
+	print(">>>>>>>>>>PUANINIZ<<<<<<<<<<")
+	print(a+b+c+d+e)
+		
+	
+else:
+	print("Yanlış Komut Girdiniz ")
